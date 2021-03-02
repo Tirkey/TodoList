@@ -24,6 +24,7 @@ export default function TodoList({name}) { //or export default function TodoList
         //   newItem:""
         // })
         setList(listArray);
+        console.log({state});
         setState({...state, newItem: ""}) //this empties the DOM input when we click on Add item button
     }
     
